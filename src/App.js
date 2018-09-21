@@ -24,7 +24,7 @@ class App extends Component {
   render() {
     return(
       <div>
-        <h1>BOOKCASE</h1>
+        <h1 className="title">BOOKCASE</h1>
 
         <Searchbar
           handleSubmit={this.handleSubmit}
