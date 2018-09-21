@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Searchbar from '../components/Searchbar';
+import Searchbar from './components/Searchbar';
+import BookList from './components/BookList';
 import './App.css';
 
 class App extends Component {
@@ -23,11 +24,16 @@ class App extends Component {
   render() {
     return(
       <div>
+        <h1>BOOKCASE</h1>
+
         <Searchbar
           handleSubmit={this.handleSubmit}
           handleChange={this.handleChange}
           searchterm={this.state.searchterm}
         />
+
+        {this.state.books ? <BookList books={this.state.books} /> : null}
+
       </div>
     );
   }
