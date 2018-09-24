@@ -2,6 +2,10 @@
 
 Bookcase is a React app that allows a user to search for books or authors and to view the average rating for their query. I set up the backend as an express server on RunKit that pulls from the Goodreads API. 
 
+To use, simply fork and clone, cd into directory and npm/yarn start. 
+
+Improvements and additional functionality still to come. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
