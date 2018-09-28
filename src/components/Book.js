@@ -16,3 +16,5 @@ class Book extends React.Component {
 }
 
 export default Book;
+
+// div to flip book card for blurb on back 
